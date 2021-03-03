@@ -10,7 +10,7 @@ class ProductController extends Controller{
         $product = Product::all();
         return response->json($product);
     }
-
+//Testing
     public function create(Request $request){
         $product = new Product;
 
